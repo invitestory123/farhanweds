@@ -7,7 +7,7 @@ window.WEDDING_DATA = {
   couple: {
     groom: "Farhan Ahmed",
     groomParents: "Mr. & Mrs. Saleem Ahmed",
-    bride: "Daughter of Mr. & Mrs. Malik Muqtar Ahmed Khan",
+    bride: "Naila Abeer",
     bridePrefix: "Daughter of",
     brideParents: "Mr. & Mrs. Malik Muqtar Ahmed Khan",
     subtitle: "Two Souls One destiny A Lifetime written by Allah",
@@ -15,16 +15,15 @@ window.WEDDING_DATA = {
 
   wedding: {
     dateLabel: "26 - 28 Nov 2026",
-    dateISO: "2026-11-26T17:00:00+03:00",
+    dateISO: "2026-11-26T10:00:00+03:00",
     invitationNote: "With the divine blessings of Allah (SWT),<br /><span style=\"font-weight:700;letter-spacing:0.08em;color:#a67d2b;font-size:1.15em;display:inline-block;margin:6px 0;\">SALEEM AHMED &amp; FAMILY</span><br />cordially invite you to celebrate the auspicious Nikah &amp; Waleema ceremonies of their beloved son.",
   },
 
   schedule: [
-    { title: "Nikah Ceremony", time: "26 Nov" },
-    { title: "Guest Reception", time: "7 PM" },
-    { title: "Waleema Ceremony", time: "8 PM" },
-    { title: "Royal Dinner Feast", time: "9 PM" },
-    { title: "Duas & Warm Wishes", time: "10 PM" },
+    { date: "26 Nov", time: "10 AM", title: "Nikah Ceremony" },
+    { date: "26 Nov", time: "2 PM", title: "Lunch" },
+    { date: "28 Nov", time: "8 PM", title: "Waleema Dinner" },
+    { date: "28 Nov", time: "11 PM", title: "Duas & Warm Wishes" },
   ],
 
   venue: {

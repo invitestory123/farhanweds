@@ -1,1 +1,72 @@
-/* Custom styles. Original form-submit handler removed (RSVP form no longer present). */
+/* Custom styles for Farhan Ahmed & Naila Abeer wedding invitation */
+
+/* Ensure hero couple names and parents are 100% visible and centered on all screens */
+#rec2487446043 .tn-elem[data-elem-id="1763402147625"] {
+  left: 0 !important;
+  right: 0 !important;
+  width: 100% !important;
+  max-width: 100vw !important;
+  box-sizing: border-box !important;
+  padding: 0 16px !important;
+  text-align: center !important;
+  margin: 0 auto !important;
+}
+
+#rec2487446043 .tn-elem[data-elem-id="1763402147625"] .tn-atom {
+  width: 100% !important;
+  box-sizing: border-box !important;
+  text-align: center !important;
+  white-space: normal !important;
+  word-break: normal !important;
+  overflow-wrap: break-word !important;
+}
+
+/* Schedule of Events — 4-Event Layout & Clean Alignment */
+.tn-elem__24874461031772803619332000008,
+.tn-elem__24874461031772803619332000009,
+.tn-elem__24874461031772803619332000010 {
+  display: none !important;
+}
+
+.tn-elem__24874461031772803124037 {
+  height: 240px !important;
+  overflow: hidden !important;
+}
+
+#rec2487446103 .t396__artboard,
+#rec2487446103 .t396__filter,
+#rec2487446103 .t396__carrier {
+  height: 500px !important;
+}
+
+@media screen and (max-width: 640px) {
+  #rec2487446103 .tn-elem[data-elem-id="1763405268776"],
+  #rec2487446103 .tn-elem[data-elem-id="1772803288793000002"],
+  #rec2487446103 .tn-elem[data-elem-id="1782315605037000003"],
+  #rec2487446103 .tn-elem[data-elem-id="1778517684813000001"] {
+    width: 155px !important;
+    text-align: left !important;
+    left: calc(50% + 20px) !important;
+  }
+  #rec2487446103 .tn-elem[data-elem-id="1763405268776"] .tn-atom,
+  #rec2487446103 .tn-elem[data-elem-id="1772803288793000002"] .tn-atom,
+  #rec2487446103 .tn-elem[data-elem-id="1782315605037000003"] .tn-atom,
+  #rec2487446103 .tn-elem[data-elem-id="1778517684813000001"] .tn-atom {
+    text-align: left !important;
+    line-height: 1.25 !important;
+  }
+  #rec2487446103 .tn-elem[data-elem-id="1772803062504"],
+  #rec2487446103 .tn-elem[data-elem-id="1772803288793000003"],
+  #rec2487446103 .tn-elem[data-elem-id="1782315588274000002"],
+  #rec2487446103 .tn-elem[data-elem-id="1778517684813000002"] {
+    width: 140px !important;
+    text-align: right !important;
+    left: calc(50% - 160px) !important;
+  }
+  #rec2487446103 .tn-elem[data-elem-id="1772803062504"] .tn-atom,
+  #rec2487446103 .tn-elem[data-elem-id="1772803288793000003"] .tn-atom,
+  #rec2487446103 .tn-elem[data-elem-id="1782315588274000002"] .tn-atom,
+  #rec2487446103 .tn-elem[data-elem-id="1778517684813000002"] .tn-atom {
+    text-align: right !important;
+  }
+}
