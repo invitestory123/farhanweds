@@ -20,7 +20,7 @@ window.WEDDING_DATA = {
   },
 
   schedule: [
-    { date: "26 Nov", time: "10 AM", title: "Nikah Ceremony" },
+    { date: "26 Nov", time: "10 AM", title: "Nikah" },
     { date: "26 Nov", time: "2 PM", title: "Lunch" },
     { date: "28 Nov", time: "8 PM", title: "Waleema Dinner" },
     { date: "28 Nov", time: "11 PM", title: "Duas & Warm Wishes" },
