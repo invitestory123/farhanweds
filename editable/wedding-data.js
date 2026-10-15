@@ -55,5 +55,6 @@ window.WEDDING_DATA = {
     heroVideo: "./editable/assets/Swans2.mov",
     audio: "./editable/assets/Einaudi_ Divenire (1) (1).mp3",
     ogImage: "./editable/assets/og-image.jpg",
+    ogLogo: "./editable/assets/og-logo.png",
   },
 };
