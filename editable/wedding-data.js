@@ -54,5 +54,6 @@ window.WEDDING_DATA = {
     sealVideo: "./editable/assets/1782224012851.mp4",
     heroVideo: "./editable/assets/Swans2.mov",
     audio: "./editable/assets/Einaudi_ Divenire (1) (1).mp3",
+    ogImage: "./editable/assets/og-image.jpg",
   },
 };
