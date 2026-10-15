@@ -107,3 +107,247 @@
     text-align: right !important;
   }
 }
+
+/* ----------------------------------------------------
+   Fonts for Script Calligraphy
+   ---------------------------------------------------- */
+@font-face {
+  font-family: 'ImperialScript';
+  src: url('../fonts/ImperialScript-Regul.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BeauRivage';
+  src: url('../external/media.invitestory.in/wax-seal-royale/fonts/BeauRivage-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* ----------------------------------------------------
+   1. Location Section (#rec2487446153)
+   Ensure "Masjid Al-Haram & Marvel Resorts, Riyadh"
+   and "Nikah: Makkah · Waleema: Riyadh" never overlap
+   ---------------------------------------------------- */
+#rec2487446153 .t396__artboard,
+#rec2487446153 .t396__filter,
+#rec2487446153 .t396__carrier {
+  overflow: visible !important;
+}
+
+#rec2487446153 .tn-elem[data-elem-id="1772804808869"] {
+  left: 0 !important;
+  right: 0 !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  text-align: center !important;
+  box-sizing: border-box !important;
+  padding: 0 16px !important;
+  top: 104px !important;
+}
+
+#rec2487446153 .tn-elem[data-elem-id="1772804808869"] .tn-atom {
+  font-family: 'NewFonts', 'Ovo', Georgia, serif !important;
+  font-size: clamp(17px, 3.8vw, 21px) !important;
+  line-height: 1.3 !important;
+  color: #6c513f !important;
+  text-align: center !important;
+  white-space: normal !important;
+  word-break: normal !important;
+}
+
+#rec2487446153 .tn-elem[data-elem-id="1772813480591000001"] {
+  left: 0 !important;
+  right: 0 !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  text-align: center !important;
+  box-sizing: border-box !important;
+  padding: 0 16px !important;
+  top: 148px !important;
+}
+
+#rec2487446153 .tn-elem[data-elem-id="1772813480591000001"] .tn-atom {
+  font-family: 'NewFonts', 'Ovo', Georgia, serif !important;
+  font-size: clamp(13px, 3vw, 16px) !important;
+  line-height: 1.35 !important;
+  color: #846f61 !important;
+  text-align: center !important;
+  white-space: normal !important;
+  word-break: normal !important;
+}
+
+@media screen and (max-width: 640px) {
+  #rec2487446153 .tn-elem[data-elem-id="1772804808869"] {
+    top: 98px !important;
+  }
+  #rec2487446153 .tn-elem[data-elem-id="1772813480591000001"] {
+    top: 154px !important;
+  }
+  #rec2487446153 .tn-elem[data-elem-id="1782312310182000001"] {
+    top: 188px !important;
+  }
+}
+
+/* ----------------------------------------------------
+   4. Fix Add to Calendar visibility (#rec2487446163)
+   Prevent button cutoff by increasing artboard height
+   ---------------------------------------------------- */
+#rec2487446163 {
+  z-index: 10 !important;
+  position: relative !important;
+  overflow: visible !important;
+}
+
+#rec2487446163 .t396__artboard,
+#rec2487446163 .t396__filter,
+#rec2487446163 .t396__carrier {
+  height: 540px !important;
+  min-height: 540px !important;
+}
+
+@media screen and (max-width: 640px) {
+  #rec2487446163 .t396__artboard,
+  #rec2487446163 .t396__filter,
+  #rec2487446163 .t396__carrier {
+    height: 495px !important;
+    min-height: 495px !important;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  #rec2487446163 .t396__artboard,
+  #rec2487446163 .t396__filter,
+  #rec2487446163 .t396__carrier {
+    height: 490px !important;
+    min-height: 490px !important;
+  }
+}
+
+#weddingLocationCard {
+  margin: 0 auto !important;
+  position: relative !important;
+  z-index: 12 !important;
+}
+
+#weddingCalBtn {
+  display: inline-block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  position: relative !important;
+  z-index: 15 !important;
+  margin-top: 4px !important;
+}
+
+/* ----------------------------------------------------
+   2 & 3. Warm Compliments & Prayers (#rec2487446183)
+   Replaces Dress Code and Gift Preference
+   ---------------------------------------------------- */
+#rec2487446183 {
+  position: relative !important;
+  z-index: 2 !important;
+}
+
+#rec2487446183 .t396__artboard,
+#rec2487446183 .t396__filter,
+#rec2487446183 .t396__carrier {
+  height: 530px !important;
+  min-height: 530px !important;
+}
+
+@media screen and (max-width: 640px) {
+  #rec2487446183 .t396__artboard,
+  #rec2487446183 .t396__filter,
+  #rec2487446183 .t396__carrier {
+    height: 520px !important;
+    min-height: 520px !important;
+  }
+}
+
+/* Hide obsolete Dress Code & Gift Preference text elements */
+#rec2487446183 .tn-elem[data-elem-id="1778524751695000002"],
+#rec2487446183 .tn-elem[data-elem-id="1778524751695000001"],
+#rec2487446183 .tn-elem[data-elem-id="1763405219328"],
+#rec2487446183 .tn-elem[data-elem-id="1772813849329000001"] {
+  display: none !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
+
+/* Dedicated Warm Compliments & Prayers Card */
+.warm-compliments-card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  width: 92%;
+  max-width: 440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  z-index: 5;
+  box-sizing: border-box;
+  padding: 8px 16px;
+  pointer-events: auto;
+}
+
+.wc-script-heading {
+  font-family: 'ImperialScript', 'BeauRivage', 'NewFonts', cursive, Georgia, serif;
+  color: #b48c3d;
+  font-size: clamp(34px, 7vw, 44px);
+  line-height: 1.15;
+  font-weight: 400;
+  margin-bottom: 8px;
+  text-shadow: 0 1px 2px rgba(180, 140, 61, 0.12);
+}
+
+.wc-dua-title {
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+.wc-body-text {
+  font-family: 'Ovo', 'NewFonts', Georgia, serif;
+  color: #6c513f;
+  font-size: clamp(15.5px, 3.4vw, 18.5px);
+  line-height: 1.48;
+  font-weight: 400;
+  margin-bottom: 12px;
+  max-width: 330px;
+}
+
+.wc-family-name {
+  font-family: 'Cinzel', Georgia, serif;
+  color: #5a0f1b;
+  font-size: clamp(14px, 3.2vw, 18px);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+  line-height: 1.3;
+}
+
+.wc-verse {
+  font-family: 'Ovo', 'NewFonts', Georgia, serif;
+  color: #6c513f;
+  font-size: clamp(16px, 3.6vw, 19.5px);
+  line-height: 1.45;
+  font-weight: 400;
+  margin-bottom: 6px;
+  max-width: 330px;
+}
+
+.wc-surah {
+  font-family: 'Cinzel', 'Ovo', Georgia, serif;
+  color: #846f61;
+  font-size: clamp(11.5px, 2.4vw, 13px);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+

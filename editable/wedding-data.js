@@ -27,22 +27,26 @@ window.WEDDING_DATA = {
   ],
 
   venue: {
-    name: "Masjid Al-Haram & Al Rimal",
-    address: "Nikah: Masjid Al-Haram, Makkah | Waleema: Al Rimal, Riyadh",
+    name: "Masjid Al-Haram & Marvel Resorts, Riyadh",
+    address: "Nikah: Makkah · Waleema: Riyadh",
     mapsUrl: "https://maps.app.goo.gl/7BXh32y6bX7uHW429?g_st=iw",
     nikahVenue: "Masjid Al-Haram",
     nikahAddress: "Makkah Al-Mukarramah, Saudi Arabia",
     nikahDate: "Thursday, 26 Nov 2026",
     nikahMapsUrl: "https://www.google.com/maps/search/?api=1&query=Masjid+Al-Haram+Makkah",
-    waleemaVenue: "Al Rimal Venue",
-    waleemaAddress: "Al Rimal District, Riyadh, Saudi Arabia",
+    waleemaVenue: "Marvel Resorts, Riyadh",
+    waleemaAddress: "28 Nov 2026 · Riyadh, Saudi Arabia",
     waleemaDate: "Saturday, 28 Nov 2026",
     waleemaMapsUrl: "https://maps.app.goo.gl/7BXh32y6bX7uHW429?g_st=iw",
   },
 
-  details: {
-    giftPreference: "Warm compliments & heartfelt duas from SALEEM AHMED & FAMILY.",
-    dressCode: "Traditional / Elegant Formal attire is requested for both celebrations.",
+  compliments: {
+    title: "With Warm Compliments",
+    message: "Your presence, love and blessings<br />will make our celebration<br />all the more meaningful and<br />memorable.",
+    family: "SYED AFTAB AHMED & FAMILY",
+    duaTitle: "With Prayers & Duas",
+    verse: "“And He placed between you<br />affection and mercy.”",
+    surah: "— SURAH AR-RUM (30:21)",
   },
 
   media: {
