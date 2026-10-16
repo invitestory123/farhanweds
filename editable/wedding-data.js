@@ -43,7 +43,7 @@ window.WEDDING_DATA = {
   compliments: {
     title: "With Warm Compliments",
     message: "Your presence, love and blessings<br />will make our celebration<br />all the more meaningful and<br />memorable.",
-    family: "SYED AFTAB AHMED & FAMILY",
+    family: "SALEEM AHMED & FAMILY",
     duaTitle: "With Prayers & Duas",
     verse: "“And He placed between you<br />affection and mercy.”",
     surah: "— SURAH AR-RUM (30:21)",
