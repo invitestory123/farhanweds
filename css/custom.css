@@ -75,18 +75,18 @@
   text-align: left !important;
 }
 
-/* Align schedule event titles directly against the event time (below the date label) */
+/* Align schedule event containers to match the exact row tops of the time containers */
 #rec2487446103 .tn-elem[data-elem-id="1763405268776"] {
-  top: 160px !important;
+  top: 141px !important;
 }
 #rec2487446103 .tn-elem[data-elem-id="1772803288793000002"] {
-  top: 242px !important;
+  top: 224px !important;
 }
 #rec2487446103 .tn-elem[data-elem-id="1782315605037000003"] {
-  top: 319px !important;
+  top: 300px !important;
 }
 #rec2487446103 .tn-elem[data-elem-id="1778517684813000001"] {
-  top: 396px !important;
+  top: 378px !important;
 }
 
 /* Schedule mobile alignment */
@@ -100,16 +100,16 @@
     left: calc(50% + 20px) !important;
   }
   #rec2487446103 .tn-elem[data-elem-id="1763405268776"] {
-    top: 160px !important;
+    top: 141px !important;
   }
   #rec2487446103 .tn-elem[data-elem-id="1772803288793000002"] {
-    top: 242px !important;
+    top: 224px !important;
   }
   #rec2487446103 .tn-elem[data-elem-id="1782315605037000003"] {
-    top: 319px !important;
+    top: 300px !important;
   }
   #rec2487446103 .tn-elem[data-elem-id="1778517684813000001"] {
-    top: 390px !important;
+    top: 377px !important;
   }
   #rec2487446103 .tn-elem[data-elem-id="1763405268776"] .tn-atom,
   #rec2487446103 .tn-elem[data-elem-id="1772803288793000002"] .tn-atom,
