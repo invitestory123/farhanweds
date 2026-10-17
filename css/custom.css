@@ -61,9 +61,10 @@
 #rec2487446103 .tn-elem[data-elem-id="1772803288793000003"],
 #rec2487446103 .tn-elem[data-elem-id="1782315588274000002"],
 #rec2487446103 .tn-elem[data-elem-id="1778517684813000002"] {
-  left: calc(50% - 220px) !important;
-  width: 190px !important;
+  left: calc(50% - 250px) !important;
+  width: 220px !important;
   text-align: right !important;
+  height: 48px !important;
 }
 
 #rec2487446103 .tn-elem[data-elem-id="1763405268776"],
@@ -73,20 +74,25 @@
   left: calc(50% + 30px) !important;
   width: 250px !important;
   text-align: left !important;
+  height: 48px !important;
 }
 
-/* Align schedule event containers directly with event times (not dates) */
-#rec2487446103 .tn-elem[data-elem-id="1763405268776"] {
-  top: 160px !important;
+/* Align schedule row containers to center diamond (same line for date & time) */
+#rec2487446103 .tn-elem[data-elem-id="1763405268776"],
+#rec2487446103 .tn-elem[data-elem-id="1772803062504"] {
+  top: 141px !important;
 }
-#rec2487446103 .tn-elem[data-elem-id="1772803288793000002"] {
-  top: 242px !important;
+#rec2487446103 .tn-elem[data-elem-id="1772803288793000002"],
+#rec2487446103 .tn-elem[data-elem-id="1772803288793000003"] {
+  top: 224px !important;
 }
-#rec2487446103 .tn-elem[data-elem-id="1782315605037000003"] {
-  top: 319px !important;
+#rec2487446103 .tn-elem[data-elem-id="1782315605037000003"],
+#rec2487446103 .tn-elem[data-elem-id="1782315588274000002"] {
+  top: 300px !important;
 }
-#rec2487446103 .tn-elem[data-elem-id="1778517684813000001"] {
-  top: 396px !important;
+#rec2487446103 .tn-elem[data-elem-id="1778517684813000001"],
+#rec2487446103 .tn-elem[data-elem-id="1778517684813000002"] {
+  top: 378px !important;
 }
 
 /* Schedule mobile alignment */
@@ -97,39 +103,53 @@
   #rec2487446103 .tn-elem[data-elem-id="1778517684813000001"] {
     width: 155px !important;
     text-align: left !important;
-    left: calc(50% + 20px) !important;
-  }
-  #rec2487446103 .tn-elem[data-elem-id="1763405268776"] {
-    top: 160px !important;
-  }
-  #rec2487446103 .tn-elem[data-elem-id="1772803288793000002"] {
-    top: 242px !important;
-  }
-  #rec2487446103 .tn-elem[data-elem-id="1782315605037000003"] {
-    top: 319px !important;
-  }
-  #rec2487446103 .tn-elem[data-elem-id="1778517684813000001"] {
-    top: 394px !important;
-  }
-  #rec2487446103 .tn-elem[data-elem-id="1763405268776"] .tn-atom,
-  #rec2487446103 .tn-elem[data-elem-id="1772803288793000002"] .tn-atom,
-  #rec2487446103 .tn-elem[data-elem-id="1782315605037000003"] .tn-atom,
-  #rec2487446103 .tn-elem[data-elem-id="1778517684813000001"] .tn-atom {
-    text-align: left !important;
-    line-height: 1.25 !important;
+    left: calc(50% + 18px) !important;
+    height: 48px !important;
   }
   #rec2487446103 .tn-elem[data-elem-id="1772803062504"],
   #rec2487446103 .tn-elem[data-elem-id="1772803288793000003"],
   #rec2487446103 .tn-elem[data-elem-id="1782315588274000002"],
   #rec2487446103 .tn-elem[data-elem-id="1778517684813000002"] {
-    width: 145px !important;
+    width: 155px !important;
     text-align: right !important;
-    left: calc(50% - 165px) !important;
+    left: calc(50% - 173px) !important;
+    height: 48px !important;
+  }
+  #rec2487446103 .tn-elem[data-elem-id="1763405268776"],
+  #rec2487446103 .tn-elem[data-elem-id="1772803062504"] {
+    top: 141px !important;
+  }
+  #rec2487446103 .tn-elem[data-elem-id="1772803288793000002"],
+  #rec2487446103 .tn-elem[data-elem-id="1772803288793000003"] {
+    top: 224px !important;
+  }
+  #rec2487446103 .tn-elem[data-elem-id="1782315605037000003"],
+  #rec2487446103 .tn-elem[data-elem-id="1782315588274000002"] {
+    top: 300px !important;
+  }
+  #rec2487446103 .tn-elem[data-elem-id="1778517684813000001"],
+  #rec2487446103 .tn-elem[data-elem-id="1778517684813000002"] {
+    top: 377px !important;
+  }
+  #rec2487446103 .tn-elem[data-elem-id="1763405268776"] .tn-atom,
+  #rec2487446103 .tn-elem[data-elem-id="1772803288793000002"] .tn-atom,
+  #rec2487446103 .tn-elem[data-elem-id="1782315605037000003"] .tn-atom,
+  #rec2487446103 .tn-elem[data-elem-id="1778517684813000001"] .tn-atom {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    height: 100% !important;
+    text-align: left !important;
+    line-height: 1.25 !important;
   }
   #rec2487446103 .tn-elem[data-elem-id="1772803062504"] .tn-atom,
   #rec2487446103 .tn-elem[data-elem-id="1772803288793000003"] .tn-atom,
   #rec2487446103 .tn-elem[data-elem-id="1782315588274000002"] .tn-atom,
   #rec2487446103 .tn-elem[data-elem-id="1778517684813000002"] .tn-atom {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-end !important;
+    height: 100% !important;
     text-align: right !important;
   }
 }
