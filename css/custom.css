@@ -75,18 +75,18 @@
   text-align: left !important;
 }
 
-/* Align schedule event containers to match the exact row tops of the time containers */
+/* Align schedule event containers directly with event times (not dates) */
 #rec2487446103 .tn-elem[data-elem-id="1763405268776"] {
-  top: 141px !important;
+  top: 160px !important;
 }
 #rec2487446103 .tn-elem[data-elem-id="1772803288793000002"] {
-  top: 224px !important;
+  top: 242px !important;
 }
 #rec2487446103 .tn-elem[data-elem-id="1782315605037000003"] {
-  top: 300px !important;
+  top: 319px !important;
 }
 #rec2487446103 .tn-elem[data-elem-id="1778517684813000001"] {
-  top: 378px !important;
+  top: 396px !important;
 }
 
 /* Schedule mobile alignment */
@@ -100,16 +100,16 @@
     left: calc(50% + 20px) !important;
   }
   #rec2487446103 .tn-elem[data-elem-id="1763405268776"] {
-    top: 141px !important;
+    top: 160px !important;
   }
   #rec2487446103 .tn-elem[data-elem-id="1772803288793000002"] {
-    top: 224px !important;
+    top: 242px !important;
   }
   #rec2487446103 .tn-elem[data-elem-id="1782315605037000003"] {
-    top: 300px !important;
+    top: 319px !important;
   }
   #rec2487446103 .tn-elem[data-elem-id="1778517684813000001"] {
-    top: 377px !important;
+    top: 394px !important;
   }
   #rec2487446103 .tn-elem[data-elem-id="1763405268776"] .tn-atom,
   #rec2487446103 .tn-elem[data-elem-id="1772803288793000002"] .tn-atom,

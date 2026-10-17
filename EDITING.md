@@ -41,7 +41,7 @@ Replace files directly in `editable/assets/` or update `media` in `wedding-data.
 - `overlayImage`: Wax-seal envelope graphic (`editable/assets/ChatGPT Image Jun 23, 2026, 04_40_29 PM.png`)
 - `sealVideo`: Wax-seal breaking/opening MP4 (`editable/assets/1782224012851.mp4`)
 - `heroVideo`: Ambient background video (`editable/assets/Swans2.mov`)
-- `audio`: Background soundtrack (`editable/assets/Einaudi_ Divenire (1) (1).mp3`)
+- `audio`: Background soundtrack (`editable/assets/toygar-isikli-anlatamam.mp3`)
 
 ---
 
